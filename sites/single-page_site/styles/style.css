@@ -1,8 +1,14 @@
+@font-face {
+    font-family: 'Poppins-Medium';
+    font-display: swap;
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+    
 html {
     background-color: #d9d9d9;
     text-align: center;
-    font-family: 'Poppins', sans-serif; /* Poppins фактически не работает с русскими буквами,
-                                           поэтому они отобразятся в стандартном sans-serif */
+    font-family: 'Poppins-Medium', sans-serif; /* Poppins-Medium фактически не работает с русскими буквами,
+                                                  поэтому они отобразятся в стандартном sans-serif */
 }
 
 body {
